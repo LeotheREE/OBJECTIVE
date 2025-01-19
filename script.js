@@ -249,7 +249,378 @@ const categories = {
         question: "In Philippine Distribution Code Purposes, which of the following does NOT belong?",
         choices: ["To ensure quality of electric Power", "To specify customers services for the protection of end users", "To specify standards for the protection of personnel in the work environment", "To ensure distribution system will be operated by only one distribution company"],
         answer: "To ensure distribution system will be operated by only one distribution company"
+    },
+    {
+        "question": "What is the purpose of P.E.C. 2009?",
+        "choices": [
+            "Design specification",
+            "Instructional manual",
+            "Safeguarding of person and property",
+            "Economical electrical design guide"
+        ],
+        "answer": "Safeguarding of person and property"
+    },
+    {
+        "question": "In the preparation of Philippine Electrical Code (P.E.C.) 2009 part 1, the National Electrical Code (N.E.C.) was used as the main reference.",
+        "choices": [
+            "2002",
+            "2005",
+            "2008",
+            "2011"
+        ],
+        "answer": "2005"
+    },
+    {
+        "question": "Which is NOT the basic rule of P.E.C. 2009?",
+        "choices": [
+            "Manufacturer's rule",
+            "Installation Rule",
+            "Wiring Design Rule",
+            "Construction Rule"
+        ],
+        "answer": "Construction Rule"
+    },
+    {
+        "question": "Vehicle washing areas are considered as what type of location?",
+        "choices": [
+            "Dry",
+            "Moist",
+            "Wet",
+            "Damp"
+        ],
+        "answer": "Wet"
+    },
+    {
+        "question": "What is the maximum number of conductors permitted in a wireway, at any cross-section, excluding signal circuit or starter-control wires?",
+        "choices": [
+            "30",
+            "40",
+            "50",
+            "100"
+        ],
+        "answer": "30"
+    },
+    {
+        "question": "Where multiple rod, pipe, or plate electrodes are installed to meet the requirement of PEC, they shall not be less than how many mm apart?",
+        "choices": [
+            "1,900",
+            "1,800",
+            "1,500",
+            "2,000"
+        ],
+        "answer": "1,800"
+    },
+    {
+        "question": "The PEC has assigned what color to the high-leg of a 4-wire delta-connected secondary?",
+        "choices": [
+            "Black",
+            "Green",
+            "Orange",
+            "Red with green tracer"
+        ],
+        "answer": "Orange"
+    },
+    {
+        "question": "The residual voltage of a capacitor shall be reduced to what value in Volts nominal or less within how many minutes after disconnection from the source of supply?",
+        "choices": [
+            "0, 0.5",
+            "15, 2",
+            "30, 3",
+            "50, 1"
+        ],
+        "answer": "50, 1"
+    },
+    {
+        "question": "What is the advantage of PVC over Polyethylene?",
+        "choices": [
+            "Moisture resistance",
+            "Temperature resistant",
+            "Flame retardant",
+            "Weather resistant"
+        ],
+        "answer": "Flame retardant"
+    },
+    {
+        "question": "As a general rule for conductors in parallel, aluminum, copper-clad aluminum, or copper conductors of what size mm² and larger, comprising each phase, neutral, or grounded circuit conductor, shall be permitted to be connected in parallel?",
+        "choices": [
+            "20",
+            "30",
+            "40",
+            "50"
+        ],
+        "answer": "50"
+    },
+    {
+        "question": "What is the neutral load for a 10-system having 150 Amp of electric-discharge lighting and 250 Amp of incandescent lighting?",
+        "choices": [
+            "325 Amp",
+            "280 Amp",
+            "385 Amp",
+            "400 Amp"
+        ],
+        "answer": "385 Amp"
+    },
+    {
+        "question": "A hermetic motor-compressor has 25 Amp full-load current. What is the rating of disconnecting means?",
+        "choices": [
+            "31.25 Amp",
+            "31.75 Amp",
+            "28.75 Amp",
+            "25 Amp"
+        ],
+        "answer": "28.75 Amp"
+    },
+    {
+        "question": "Three squirrel-cage induction motors rated as follows: 25 HP, 34 Amp full-load; 20 HP, 27 Amp full-load; and 10 HP, 14 Amp full-load are to be served by a feeder circuit for an ambient temperature of 30°C. What is the net computed current for feeder conductors and the largest protective device using non-time delay (NTD) fuse?",
+        "choices": [
+            "83.5 Amp & 141 Amp",
+            "105.6 Amp & 125 Amp",
+            "86.3 Amp & 145 Amp",
+            "90.5 Amp & 121 Amp"
+        ],
+        "answer": "83.5 Amp & 141 Amp"
+    },
+    {
+        "question": "A generator has a nameplate rating of 30 Amp. What is the minimum ampacity of conductor from generator terminals to the first overcurrent device?",
+        "choices": [
+            "30 Amp",
+            "37.5 Amp",
+            "34.5 Amp",
+            "60 Amp"
+        ],
+        "answer": "34.5 Amp"
+    },
+    {
+        "question": "A 3PHASE,225 kVA, 4.16 kV/480 Volt power transformer having 2.3% impedance is in a supervised location. What size fuses are required to protect the transformer primary, and what size circuit breaker is required to protect the transformer secondary?",
+        "choices": [
+            "90 Amp & 600 Amp",
+            "80 Amp & 500 Amp",
+            "100 Amp & 800 Amp",
+            "75 Amp & 475 Amp"
+        ],
+        "answer": "90 Amp & 600 Amp"
+    },
+    {
+        question: "The ampacity of capacitor circuit conductors shall not be less than _ percent of the rated current of the capacitor.",
+        choices: ["135", "125", "150", "167"],
+        answer: "135"
+    },
+    {
+        question: "On solar photovoltaic systems; ampacity of conductors and overcurrent devices shall not be less than ___ percent of the computed current.",
+        choices: ["150", "100", "125", "200"],
+        answer: "125"
+    },
+    {
+        question: "P.E.C. requires that resistance to ground of a single electrode consisting of rod, pipe, or plate shall be",
+        choices: ["30 to 50 ohms", "25 ohms or less", "above 100 ohms", "50 to 100 ohms"],
+        answer: "25 ohms or less"
+    },
+    {
+        question: "___ is a device intended to open the circuit when it detects the current waveform characteristic that are unique to arcing faults.",
+        choices: ["GFCI", "AFCI", "KAIC", "all of these"],
+        answer: "AFCI"
+    },
+    {
+        question: "The maximum number of overcurrent devices that may be installed in a lighting panel is:",
+        choices: ["24", "48", "42", "36"],
+        answer: "48"
+    },
+    {
+        question: "R.A. 7920 is a consolidation of House Bill No.___ Senate Bill No.___",
+        choices: ["11063 & 1766", "10163 & 1676", "16013 & 1667", "13106 & 1776"],
+        answer: "11063 & 1766"
+    },
+    {
+        question: "The Board of Electrical Engineer shall be composed of ___",
+        choices: ["one chairman", "one chairman & one member", "one chairman & two members", "three members"],
+        answer: "one chairman & two members"
+    },
+    {
+        question: "Sec. 4, Art. II, R.A. 7920 states the powers and duties of the board. What does it mean by quasi-legislative powers?",
+        choices: ["evaluation", "control", "supervisory", "rule-making"],
+        answer: "rule-making"
+    },
+    {
+        question: "What is otherwise known as 'PRC Modernization Law'?",
+        choices: ["RA 8981", "RA 7981", "RA 8819", "RA 7819"],
+        answer: "RA 8981"
+    },
+    {
+        question: "It refers to the choice of electrical systems, including planning and detailing of requirements for protection, control, monitoring, coordination, and interlocking of electrical systems among others.",
+        choices: ["system utilization design", "practice of electrical engineering", "power plant design", "electrical system design"],
+        answer: "electrical system design"
+    },
+    {
+        question: "Which of the following clauses is NOT included in Article VI, final provisions of R.A. 7920?",
+        choices: ["Repealing", "Penalty", "Separability", "Effectivity"],
+        answer: "Penalty"
+    },
+    {
+        question: "What is the term used when an American citizen is allowed to practice his profession, e.g., electrical engineering profession, here in the Philippines?",
+        choices: ["APEC registry", "ACPE registry", "Foreign Reciprocity", "ASEAN Engr"],
+        answer: "Foreign Reciprocity"
+    },
+    {
+        question: "What is sec. 37 of Article IV, R.A. 7920?",
+        choices: ["Posting of certificate of registration", "Certificate of specialty", "Foreign reciprocity", "Penalty clause"],
+        answer: "Posting of certificate of registration"
+    },
+    {
+        question: "What is the meaning of PRBEE?",
+        choices: [
+            "Professional Regulation Board of Electrical Engineering",
+            "Professional Regulating Board of Electrical Engineers",
+            "Professional Regulatory Board of Electrical Engineering",
+            "Profession Regulation Board of Electrical Engineers"
+        ],
+        answer: "Professional Regulatory Board of Electrical Engineering"
+    },
+    {
+        question: "A part of the specification which describes the technical details types of construction.",
+        choices: ["specific clause", "shop drawing", "general clause", "order to work"],
+        answer: "specific clause"
+    },
+    {
+        question: "Ethics may be defined as the following, EXCEPT:",
+        choices: [
+            "A philosophical concept dealing with moral conduct",
+            "A set of rules promulgated by law to control criminality",
+            "A set of standards establishing right and wrong",
+            "Rules that describe one's duty to society and to fellow professionals"
+        ],
+        answer: "A set of rules promulgated by law to control criminality"
+    },
+    {
+        question: "In Article V, Effectivity of Code of Ethics shall take effect upon approval by the ___ and after fifteen (15) days following its publication in the Official Gazette.",
+        choices: ["Board of EE (BEE)", "Commission", "Chairman of the board (BEE)", "Integrated National Organization"],
+        answer: "Commission"
+    },
+    {
+        question: "What is Article I, Section 2?",
+        choices: [
+            "An Electrical Engineer shall discharge his duties with absolute fidelity to his clients and employers, and shall at all times be impartial to all.",
+            "An Electrical Engineer shall uphold the honor and dignity of his profession.",
+            "An Electrical Engineer shall only advertise his work in a simple manner and avoid any practice that will discredit or do injury to the dignity of his profession.",
+            "An Electrical Engineer shall have due regard at all times for safety of the life and health of his employees, other workers, as well as the general public."
+        ],
+        answer: "An Electrical Engineer shall uphold the honor and dignity of his profession."
+    },
+    {
+        question: "What is Article III, Section 7?",
+        choices: [
+            "An Electrical Engineer shall not accept compensation from more than one interested party for the same professional service pertaining to the same work, without the consent of all affected parties.",
+            "An Electrical Engineer shall not divulge confidential matters or information which has come to his knowledge concerning affairs of his clients or employers, without their consent.",
+            "An Electrical Engineer who has been engaged to prepare the specifications of machineries, equipment, or things needed in a project, shall not make the specification to fit the machineries, equipment, or things of a prospective bidder for which he has been or expects to be employed as an engineer, unless he has the consent of his client or employer.",
+            "An Electrical Engineer shall promptly disclose to his client or employer an interest which he may have in a business that may conflict with or affect his decision regarding engineering work for which he is employed or which he may be called upon to perform."
+        ],
+        answer: "An Electrical Engineer shall not divulge confidential matters or information which has come to his knowledge concerning affairs of his clients or employers, without their consent."
+    },
+    {
+        question: "The Board of Electrical Engineering may suspend a professional from practice of his profession for unprofessional or dishonorable conduct. Among these are the following. EXCEPT:",
+        choices: [
+            "Signing and sealing electrical plans brought to him for approval construction without actually having done so.",
+            "Represented himself as having taken charge of or supervised any electrical work without actually having done so.",
+            "For perpetration of fraud or deceit in obtaining a certificate of registration.",
+            "Signing technical reports, estimates, or specifications not prepared by him."
+        ],
+        answer: "Signing and sealing electrical plans brought to him for approval construction without actually having done so."
+    },
+    {
+        question: "In Article I, Section 3 states that an Electrical Engineer shall strive to upgrade his skills and knowledge in Electrical Engineering in order to give the best possible ___ to the public.",
+        choices: ["workers", "service", "engineers", "interest"],
+        answer: "service"
+    },
+    {
+        question: "Month of May is declared as 'Electrical Safety Month' as declared by President Aquino, what proclamation number is this?",
+        choices: ["7920", "9136", "93", "193"],
+        answer: "193"
+    },
+    {
+        question: "What does OSHS mean?",
+        choices: [
+            "Occupational Safety and Health Standards",
+            "Operational Safety and Health System",
+            "Occupational Safety and Handling System",
+            "Operational Security and Health Standards"
+        ],
+        answer: "Occupational Safety and Health Standards"
+    },
+    {
+        question: "OSHS Rule number for Electrical Safety is ___",
+        choices: ["1410", "1140", "1080", "1210"],
+        answer: "1210"
+    },
+    {
+        question: "Under OSHS Rule 1040, a workplace with less than 100 workers is under what type and composition of Health and Safety.",
+        choices: ["Type A", "Type B", "Type C", "Type D"],
+        answer: "Type D"
+    },
+    {
+        question: "In R.A. 9136, what does PSALM mean?",
+        choices: [
+            "Power System Assets and Liabilities Management Corporation",
+            "Power Sector Assets and Liabilities Management Corporation",
+            "Power System Assets and Liabilities Management Commission",
+            "Power Sector Assets and Liabilities Management Commission"
+        ],
+        answer: "Power Sector Assets and Liabilities Management Corporation"
+    },
+    {
+        question: "If a tropical storm is going to the Philippine area of responsibility within 24 hours, what kind of alert status is to be raised in accordance with the Philippine Distribution Code?",
+        choices: ["Blue alert", "Yellow alert", "Weather disturbance alert", "Red alert"],
+        answer: "Blue alert"
+    },
+    {
+        question: "The functional unit of NPC (National Power Corp.) created to pursue the missionary electrification function is SPUG, what does SPUG mean?",
+        choices: [
+            "System Power Users Group",
+            "Small Power Utilities Group",
+            "Small Power User Generator",
+            "System Power Utilities Generation"
+        ],
+        answer: "Small Power Utilities Group"
+    },
+    {
+        question: "What is SoLR from the Philippine Distribution Code (PDC)?",
+        choices: [
+            "Supplier of last resort",
+            "Source of load resort",
+            "Supplier of load resort",
+            "Source of line reserve"
+        ],
+        answer: "Supplier of last resort"
+    },
+    {
+        question: "As specified by ERC (Energy Regulatory Commission), a large customer is a customer with a demand at least ___ MW or the threshold value specified.",
+        choices: ["1.0", "0.5", "0.75", "2.0"],
+        answer: "1.0"
+    },
+    {
+        question: "A common utility's tariff practice to penalize industrial consumers whose power factor is below ___ and give incentives for a power factor above ___",
+        choices: ["80%, 90%", "75%, 95%", "85%, 85%", "75%, 85%"],
+        answer: "85%, 85%"
+    },
+    {
+        question: "It is also referred to as 'Anti-Obstruction of Power Lines Act'.",
+        choices: ["R.A. 7832", "R.A. 11361", "R.A. 11285", "R.A. 10968"],
+        answer: "R.A. 11361"
+    },
+    {
+        question: "It refers to the portion of the transmission system referring to the lines or wires.",
+        choices: ["Distribution lines", "Sub-transmission lines", "Transmission lines", "Feeder lines"],
+        answer: "Transmission lines"
+    },
+    {
+        question: "The Power Line Corridor (PLC) shall be determined by ___ in accordance with the PEC, and to be approved by ___",
+        choices: ["BEE, DOE", "ERC committee, PEE", "PEE, ERC committee", "DOE, BEE"],
+        answer: "BEE, DOE"
+    },
+    {
+        question: "Which of the following is 'Murang Kuryente Act'?",
+        choices: ["R.A. 11361", "R.A. 11285", "R.A. 11371", "R.A. 10968"],
+        answer: "R.A. 11371"
     }
+
     ],
 
 
