@@ -630,12 +630,12 @@ const categories = {
     {
         "question": "ACSR means",
         "choices": [
-            "Afuminum Conductor Steel Reinforced",
+            "Aluminum Conductor Steel Reinforced",
             "Aluminum Cable Steel Reinforced",
             "Aluminum Conductor Steel Ring",
             "None of the above"
         ],
-        "answer": "Afuminum Conductor Steel Reinforced"
+        "answer": "Aluminum Conductor Steel Reinforced"
     },
     {
         "question": "In ACSR conductor, the function of steel is to",
