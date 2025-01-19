@@ -182,8 +182,8 @@ const categories = {
     },
     {
         question: "In what rule does R.A. 184 - Old Electrical Engineering Law (1947) stated?",
-        choices: ["Rule 2 (e)", "Rule 2 (l)", "Rule 2 (p)", "Rule 2 (i)"],
-        answer: "Rule 2 (l)"
+        choices: ["Rule 2 (e)", "Rule 2 (f)", "Rule 2 (p)", "Rule 2 (i)"],
+        answer: "Rule 2 (f)"
     },
     {
         question: "A Board of Electrical Engineering (BEE) will serve his term in how many years?",
@@ -248,7 +248,7 @@ const categories = {
     {
         question: "In Philippine Distribution Code Purposes, which of the following does NOT belong?",
         choices: ["To ensure quality of electric Power", "To specify customers services for the protection of end users", "To specify standards for the protection of personnel in the work environment", "To ensure distribution system will be operated by only one distribution company"],
-        answer: "To ensure quality of electric Power"
+        answer: "To ensure distribution system will be operated by only one distribution company"
     }
     ],
 
