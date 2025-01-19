@@ -745,7 +745,7 @@ const categories = {
     {
         "question": "Name the effect which resulted because of the size of conductor, frequency and the specific resistance of the conducting material.",
         "choices": ["Corona effect", "Proximity effect", "Skin effect", "Thomson effect"],
-        "answer": "Thomson effect"
+        "answer": "Skin effect"
     },
     {
         "question": "In both skin effect and proximity effect",
