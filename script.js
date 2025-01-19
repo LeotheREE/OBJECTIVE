@@ -948,7 +948,345 @@ const categories = {
         "question": "In order to improve the power factor,",
         "choices": ["Synchronous condenser", "Synchronous reactor", "Series capacitors", "Shunt reactor"],
         "answer": "Synchronous condenser"
-    }
+    },
+    {
+        question: "Which is the first equipment seen in the substation while coming from transmission system?",
+        choices: [
+            "Circuit breaker",
+            "Lightning arrester",
+            "Current transformer",
+            "Power Transformer"
+        ],
+        answer: "Lightning arrester"
+    },
+    {
+        question: "Gas Insulated Substation (GIS) is employed where?",
+        choices: [
+            "Where there is less space available",
+            "For high altitude substations",
+            "In terrain region",
+            "Any of these"
+        ],
+        answer: "Where there is less space available"
+    },
+    {
+        question: "In substation, which of the devices is a carrier communication device?",
+        choices: [
+            "Capacitor Voltage Transformer (CVT)",
+            "Earth/ground conductor",
+            "Wave trap",
+            "Lightning arrestor"
+        ],
+        answer: "Wave trap"
+    },
+    {
+        question: "Which of the devices is employed in substation to limit the short circuit current in the power system?",
+        choices: [
+            "Shunt condenser",
+            "Reactor",
+            "Series capacitor",
+            "Shunt capacitor"
+        ],
+        answer: "Reactor"
+    },
+    {
+        question: "Which of the following is NOT changed in transformer substation?",
+        choices: [
+            "Frequency",
+            "Power",
+            "Power factor",
+            "All of the above"
+        ],
+        answer: "All of the above"
+    },
+    {
+        question: "Stones or gravel are provided in the substation to:",
+        choices: [
+            "Avoid fire accidents by draining oil from transformer if it leaks",
+            "Provide insulation",
+            "Avoid growing of weeds and plants",
+            "All of the above"
+        ],
+        answer: "All of the above"
+    },
+    {
+        question: "Why are hollow bus bar conductors used in substations instead of solid ones?",
+        choices: [
+            "Due to skin effect",
+            "Due to proximity effect",
+            "Ferranti effect",
+            "Peltier effect"
+        ],
+        answer: "Due to skin effect"
+    },
+    {
+        question: "Which of the following bus-bar arrangements is more reliable and flexible in a substation?",
+        choices: [
+            "Main and transfer bus scheme",
+            "Breaker-and-a-half scheme",
+            "Double main busbar scheme",
+            "Single busbar scheme"
+        ],
+        answer: "Breaker-and-a-half scheme"
+    },
+    {
+        question: "Which combines the functions of the isolators and a switch?",
+        choices: [
+            "Circuit breaker",
+            "Load interrupter switches",
+            "Earth switches",
+            "Line trap"
+        ],
+        answer: "Load interrupter switches"
+    },
+    {
+        question: "What is the meaning of 'heat rate' of a generating unit?",
+        choices: [
+            "The amount of fuel being used per hour",
+            "The amount of fuel energy being used per hour by the boiler",
+            "The amount of fuel energy used to produce one kWh",
+            "The amount of heat energy per hour being absorbed at the condenser"
+        ],
+        answer: "The amount of fuel energy used to produce one kWh"
+    },
+    {
+        question: "Which of the following is the least efficient power plant?",
+        choices: [
+            "Diesel",
+            "Gasoline",
+            "Coal-fired",
+            "Combined cycle"
+        ],
+        answer: "Coal-fired"
+    },
+    {
+        question: "A diesel power plant is best suited as:",
+        choices: [
+            "Base load",
+            "Standby",
+            "Peak load",
+            "General purpose"
+        ],
+        answer: "Standby"
+    },
+    {
+        question: "A geothermal power plant is most suitable for:",
+        choices: [
+            "Stand-by plant",
+            "Peak load plant",
+            "Regulating plant",
+            "Base load plant"
+        ],
+        answer: "Base load plant"
+    },
+    {
+        question: "Which of the following methods of producing EMF is NOT yet in commercial use?",
+        choices: [
+            "Solar",
+            "Thermal",
+            "Magnetic",
+            "Fuel Cell"
+        ],
+        answer: "Fuel Cell"
+    },
+    {
+        question: "With which of the following is enthalpy associated?",
+        choices: [
+            "Steam",
+            "Electrostatic filter",
+            "Coal",
+            "Oil"
+        ],
+        answer: "Steam"
+    },
+    {
+        question: "In a steam turbine cycle, the lowest pressure occurs in the:",
+        choices: [
+            "Boiler",
+            "Turbine inlet",
+            "Condenser"
+        ],
+        answer: "Condenser"
+    },
+    {
+        question: "Which one is essential for combustion of fuel?",
+        choices: [
+            "Oxygen to support combustion",
+            "Correct fuel-air ratio",
+            "Proper ignition temperature",
+            "All of the above"
+        ],
+        answer: "All of the above"
+    },
+    {
+        question: "Which of the following is a non-renewable source of energy?",
+        choices: [
+            "Solar",
+            "Wind",
+            "Nuclear",
+            "Hydro"
+        ],
+        answer: "Nuclear"
+    },
+    {
+        question: "The energy of present nuclear plants comes from:",
+        choices: [
+            "The fusion of radioactive materials",
+            "The friction of high-speed electron against protons",
+            "The destruction of very tiny particles released when atoms split",
+            "The heat produced by the collision of high-speed protons"
+        ],
+        answer: "The destruction of very tiny particles released when atoms split"
+    },
+    {
+        question: "In fusion, energy is produced when:",
+        choices: [
+            "Fuel burns",
+            "Nuclei combine particles",
+            "Nuclear particles divide",
+            "Chemical compounds fuse together"
+        ],
+        answer: "Nuclei combine particles"
+    },
+    {
+        question: "In the list below, which one is not a type of present-day nuclear power plant?",
+        choices: [
+            "Low-pressure reactor",
+            "Boiling water",
+            "Fusion-fission reactor",
+            "Fast breeder reactor"
+        ],
+        answer: "Fusion-fission reactor"
+    },
+    {
+        question: "Reflecting mirrors used for exploiting solar energy in a solar power plant is:",
+        choices: [
+            "Mantle",
+            "Diffuser",
+            "Ponds",
+            "Heliostats"
+        ],
+        answer: "Heliostats"
+    },
+    {
+        question: "Of the various methods of utilizing the heat from the sun, one appears to be the most efficient so far. Which one is this?",
+        choices: [
+            "Self-contained collector",
+            "Mirror and tracking system",
+            "Direct application of lenses",
+            "Flat plate collector"
+        ],
+        answer: "Mirror and tracking system"
+    },
+    {
+        question: "The turbine which is normally used in a tidal power plant is:",
+        choices: [
+            "Simple impulse type",
+            "Reversible type",
+            "Propeller type",
+            "Irreversible type"
+        ],
+        answer: "Reversible type"
+    },
+    {
+        question: "The water behind the dam at a hydroelectric power plant is:",
+        choices: [
+            "Storage",
+            "Pondage",
+            "Reservoir",
+            "Spillwater"
+        ],
+        answer: "Pondage"
+    },
+    {
+        question: "The intake pipe to the hydraulic turbine from a dam is called:",
+        choices: [
+            "Tailrace",
+            "Spiral casing",
+            "Penstock",
+            "Surge tank"
+        ],
+        answer: "Penstock"
+    },
+    {
+        question: "Which plant can never have 100 percent load factor?",
+        choices: [
+            "Peak load plant",
+            "Base load plant",
+            "Nuclear power plant"
+        ],
+        answer: "Peak load plant"
+    },
+    {
+        question: "During load shedding, what happens?",
+        choices: [
+            "System power factor is changed",
+            "Some loads are switched off",
+            "System voltage is reduced",
+            "System frequency is reduced"
+        ],
+        answer: "Some loads are switched off"
+    },
+    {
+        question: "Which of the following generating station has the minimum running cost?",
+        choices: [
+            "Nuclear power",
+            "Hydro-electric plant",
+            "Diesel plant",
+            "Thermal plant"
+        ],
+        answer: "Hydro-electric plant"
+    },
+    {
+        question: "Depreciation charges are high in the case of what power plant?",
+        choices: [
+            "Windmill plant",
+            "Hydro-electric plant",
+            "Diesel plant",
+            "Thermal plant"
+        ],
+        answer: "Thermal plant"
+    },
+    {
+        question: "The type of switchgear assembly commonly selected for use in a turbine-generator power plant is:",
+        choices: [
+            "Vertical switchboard",
+            "Dual benchboard",
+            "Duplex benchboard",
+            "Enclosed switchboard"
+        ],
+        answer: "Enclosed switchboard"
+    },
+        {
+            question: "Selection and location of site for a substation depends on",
+            choices: ["availability of suitable and sufficient land", "type of substations", "atmospheric conditions", "all of these"],
+            answer: "all of these"
+        },
+        {
+            question: "What are the advantages of indoor substations over outdoor substations?",
+            choices: ["less space required", "operation is easy", "chances of fault is less", "all of these"],
+            answer: "all of these"
+        },
+        {
+            question: "Which of the following gas is used in gas insulated substation (GIS)?",
+            choices: ["Nitrogen + SF6", "Hydrogen + SF6", "SF6", "Oxygen + SF6"],
+            answer: "SF6"
+        },
+        {
+            question: "Which of the following busbar arrangement is generally employed in distribution system?",
+            choices: ["One-and-half breaker-and-a-half arrangement", "Main and transfer arrangement", "Ring main distribution system", "Single busbar arrangement system"],
+            answer: "Ring main distribution system"
+        },
+        {
+            question: "A bus coupler circuit breaker is utilized in a substation for",
+            choices: ["Joining the transmission line with station bus-bar", "Joining main and transfer bus in a substation", "Joining the generator with transfer", "Joining the neutral of the generator with the earth"],
+            answer: "Joining main and transfer bus in a substation"
+        },
+        {
+            question: "Which of the following is used for clearance between ground and live conductor in substations?",
+            choices: ["Isolating switch", "Insulators", "Circuit breakers", "Lightning arrestor"],
+            answer: "Insulators"
+        }
     ],
 
 
