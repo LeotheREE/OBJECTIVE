@@ -721,7 +721,7 @@ function shuffleArray(array) {
 
 function loadQuestion() {
     if (questionPool.length === 0) {
-        questionElement.textContent = "You've completed the quiz by answering all questions correctly!";
+        questionElement.textContent = "POTEK ANG GALING!";
         choicesContainer.innerHTML = "";
         nextButton.style.display = "none";
         restartButton.style.display = "inline-block";
